@@ -1,6 +1,16 @@
 # Code-Leakage-Detection-Utils
 Utils (mostly drafts) developed for code leakage detection.
 
+---
+
+<div align="center">
+  
+[npmsearch](#npmsearchpy) | [npm-secrets](#npm-secrets) | [dockerhub-secrets](#dockerhub-secrets)
+
+</div>
+
+---
+
 ## Tools Description
 ### npmsearch.py
 Searches for public NPM pacakges that might have been leaked by mistake using built-in heuristics.
@@ -17,7 +27,7 @@ Searches for public NPM pacakges that might have been leaked by mistake using bu
 - Python3
 - [Shhgit][1]
 
-### npm-secrets
+### dockerhub-secrets
 - Search DockerHub for public images by a given keyword.
 - Fetch the metadata and layers of the first and last tags of the found images.
 - Analyzes the Docker image and searches for sensitive stuff that might have leaked (secrets, code and etc.)
