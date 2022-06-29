@@ -18,6 +18,8 @@ Searches for public NPM pacakges that might have been leaked by mistake using bu
 #### Prerequisites
 - Python3
 
+---
+
 ### npm-secrets
 - Utilizes npmsearch.py to find public npm packages by a given keyword.
 - Fetch the packages.
@@ -26,6 +28,8 @@ Searches for public NPM pacakges that might have been leaked by mistake using bu
 #### Prerequisites
 - Python3
 - [Shhgit][1]
+
+---
 
 ### dockerhub-secrets
 - Search DockerHub for public images by a given keyword.
